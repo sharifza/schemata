@@ -12,4 +12,8 @@ Instead, we take a multi-task learning approach, where we implement the classifi
 We show that our model can accurately generate commonsense knowledge and that the iterative injection of this knowledge to scene representations leads to significantly higher classification performance. Additionally, our model can be fine-tuned on external knowledge given as triples. 
 When combined with self-supervised learning and with 1% of annotated images only, this gives more than 3% improvement in object classification, 26% in scene graph classification, and 36% in predicate prediction accuracy.
 
+## Model
+<p align="center"><img src="docs/schema-architecture.png" title="Schema architecture."></p>
+ 
+
 ## Coming soon ...
