@@ -15,5 +15,8 @@ When combined with self-supervised learning and with 1% of annotated images only
 ## Model
 <p align="center"><img src="docs/schema-architecture.png" title="Schema architecture."></p>
  
+## Splits of Visual Genome
 
-## Coming soon ...
+You can find the proposed splits of the VG dataset in `schemata/splits` (1% and 10% with 4 splits each).
+
+## The code is coming soon ...
