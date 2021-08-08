@@ -1,4 +1,4 @@
-## [Classification by Attention: Scene Graph Classification with Prior Knowledge (AAAI 2021)](https://arxiv.org/abs/2011.10084)
+## [Classification by Attention: Scene Graph Classification with Prior Knowledge (AAAI 2021)](https://ojs.aaai.org/index.php/AAAI/article/view/16636)
 
 #### by [Sahand Sharifzadeh](https://www.linkedin.com/in/sahandsharifzadeh/)<sup>1</sup>, [Sina Moayed Baharlou](https://www.sinabaharlou.com)<sup>2</sup>, [Volker Tresp](https://www.dbs.ifi.lmu.de/cms/personen/professoren/tresp/index.html)<sup>1,3</sup>
 <sup>1 </sup> Ludwig Maximilian University, Munich, Germany, <sup>2 </sup> Sapienza University of Rome, Italy<br/>
@@ -20,3 +20,18 @@ When combined with self-supervised learning and with 1% of annotated images only
 You can find the proposed splits of the VG dataset in `schemata/splits` (1% and 10% with 4 splits each).
 
 ## The code is coming soon ...
+
+## Bibtex
+```
+@article{Sharifzadeh_Moayed Baharlou_Tresp_2021, 
+  title={Classification by Attention: Scene Graph Classification with Prior Knowledge}, 
+  volume={35}, 
+  url={https://ojs.aaai.org/index.php/AAAI/article/view/16636}, 
+  number={6}, 
+  journal={Proceedings of the AAAI Conference on Artificial Intelligence}, 
+  author={Sharifzadeh, Sahand and Moayed Baharlou, Sina and Tresp, Volker}, 
+  year={2021}, 
+  month={May}, 
+  pages={5025-5033} 
+}
+```
