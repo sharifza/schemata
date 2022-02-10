@@ -19,8 +19,6 @@ When combined with self-supervised learning and with 1% of annotated images only
 
 You can find the proposed splits of the VG dataset in `schemata/splits` (1% and 10% with 4 splits each).
 
-## The code is coming soon ...
-
 ## Bibtex
 ```
 @article{Sharifzadeh_Moayed Baharlou_Tresp_2021, 
