@@ -1,8 +1,8 @@
-## [Classification by Attention: Scene Graph Classification with Prior Knowledge (AAAI 2021)](https://arxiv.org/abs/2011.10084)
+## [Classification by Attention: Scene Graph Classification with Prior Knowledge (AAAI 2021)](https://ojs.aaai.org/index.php/AAAI/article/view/16636)
 
-#### by [Sahand Sharifzadeh](https://www.linkedin.com/in/sahandsharifzadeh/)<sup>1</sup>, [Sina Moayed Baharlou](https://www.sinabaharlou.com)<sup>2</sup>, [Volker Tresp](https://www.dbs.ifi.lmu.de/cms/personen/professoren/tresp/index.html)<sup>1,3</sup>
-<sup>1 </sup> Ludwig Maximilian University, Munich, Germany, <sup>2 </sup> Sapienza University of Rome, Italy<br/>
-<sup>3 </sup> Siemens AG, Munich, Germany<br/>
+#### by [Sahand Sharifzadeh](https://www.linkedin.com/in/sahandsharifzadeh/ )<sup>1</sup>, [Sina Moayed Baharlou](https://www.sinabaharlou.com)<sup>1</sup>, [Volker Tresp](https://www.dbs.ifi.lmu.de/~tresp/ )<sup>1,2</sup>
+<sup>1 </sup> Ludwig Maximilian University, Munich, Germany,
+<sup>2 </sup> Siemens AG, Munich, Germany<br/>
 
 ## Abstract
 A major challenge in scene graph classification is that the appearance of objects and relations can be significantly different from one image to another. 
@@ -14,9 +14,40 @@ When combined with self-supervised learning and with 1% of annotated images only
 
 ## Model
 <p align="center"><img src="docs/schema-architecture.png" title="Schema architecture."></p>
- 
+
+## Results
+<p align="center"><img src="docs/R@K.png" title="R@K Results"></p>
+<p align="center"><img src="docs/mR@K.png" title="mR@K Results"></p>
+
 ## Splits of Visual Genome
 
 You can find the proposed splits of the VG dataset in `schemata/splits` (1% and 10% with 4 splits each).
 
-## The code is coming soon ...
+## Notes
+* The skeleton of our code is built on top of the nice framework of [Neural-Motifs](https://github.com/rowanz/neural-motifs). This includes the data loading pipeline, and part of the evaluation code. 
+However, we have updated these parts to be compatible with PyTorch >= 1.
+
+* The code is tested under Scene Graph Classification (SGCls) and Predicate Prediction (PredCls) settings.
+We had difficulty reproducing Scene Graph _Detection_ (SGDet) of Neural Motifs under the updated PyTorch, and 
+nevertheless, SGDet was not the focus of our experiments. 
+
+* This code also contains our implementations of mR@K, which was originally not available in the NM code.
+
+* The current release only presents the results for assimilation and not the accomodation. However, the IZS splits are
+available.
+
+
+## Bibtex
+```
+@article{Sharifzadeh_Moayed Baharlou_Tresp_2021, 
+  title={Classification by Attention: Scene Graph Classification with Prior Knowledge}, 
+  volume={35}, 
+  url={https://ojs.aaai.org/index.php/AAAI/article/view/16636}, 
+  number={6}, 
+  journal={Proceedings of the AAAI Conference on Artificial Intelligence}, 
+  author={Sharifzadeh, Sahand and Moayed Baharlou, Sina and Tresp, Volker}, 
+  year={2021}, 
+  month={May}, 
+  pages={5025-5033} 
+}
+```

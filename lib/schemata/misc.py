@@ -3,7 +3,6 @@
 ####################################
 import torch
 from torch import nn
-import torch.nn.functional as F
 import numpy as np
 import random
 from torch_scatter import scatter_add, scatter_max
