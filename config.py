@@ -7,8 +7,7 @@ import numpy as np
 import subprocess
 
 ROOT_PATH = os.path.dirname(os.path.realpath(__file__))
-DATA_PATH = "/mnt/data1/sharifza" #"/home/wiss/sharifza/datasets"#"/nfs/data/koner/data/"# os.path.join(ROOT_PATH, 'data')
-# /mnt/data1/sharifza/
+DATA_PATH = os.path.join(ROOT_PATH, 'data')
 
 def path(fn):
     return os.path.join(DATA_PATH, fn)
