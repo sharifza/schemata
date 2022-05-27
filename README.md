@@ -4,6 +4,10 @@
 <sup>1 </sup> Ludwig Maximilian University, Munich, Germany,
 <sup>2 </sup> Siemens AG, Munich, Germany<br/>
 
+## TL;DR:
+
+We study the role of commonsense in scene graph classification. We introduce Schemata as image-grounded symbol representations that capture commonsense.
+
 ## Abstract
 A major challenge in scene graph classification is that the appearance of objects and relations can be significantly different from one image to another. 
 Previous works have addressed this by relational reasoning over all objects in an image or incorporating prior knowledge into classification. 
